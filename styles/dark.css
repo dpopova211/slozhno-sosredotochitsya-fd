@@ -32,7 +32,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {  
+  :root {
     --main-bg-color: #000028;
     --bg-image: url(../images/cover-image-dark.png);
     --title-color: #000028;
@@ -41,6 +41,7 @@
     --hover-color: #db00ff;
     --accent-color: #ff0070;
   }
+
   .decor__element {
     position: absolute;
     inset-block-start: var(--padding-size);
