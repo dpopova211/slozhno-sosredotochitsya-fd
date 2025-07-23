@@ -6,10 +6,7 @@
   --text-color: #353430;
   --hover-color: #ffc2e6;
   --accent-color: #ff8dcb;
-}
-
-.theme-light .decor__element {
-  display: none;
+  --displey-decor-element: none;
 }
 
 @media (prefers-color-scheme: light) {
