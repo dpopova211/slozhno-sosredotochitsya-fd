@@ -233,7 +233,7 @@
     font-size: var(--font-size-large);
   }
 
-  .title-text__header { 
+  .title-text__header {
     justify-self: end;
     max-inline-size: 364px;
    }
@@ -253,11 +253,7 @@
     "title ."
     "content content";
   }
-
-  .first-title {
-    margin-block-end: 0;
-  }
-
+ 
   .section__what > .section__title {
     grid-area: title;
   }
@@ -278,6 +274,7 @@
 
   .first-title {
     grid-area: first_title;
+    margin-block-end: 0;
   }
 
   .section__how > .content__list {
@@ -352,5 +349,4 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
-
 }
