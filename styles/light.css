@@ -18,8 +18,5 @@
     --text-color: #353430;
     --hover-color: #ffc2e6;
     --accent-color: #ff8dcb;
-  }
-  .decor__element {
-    display: none;
-  }
+    --displey-decor-element: none;
 }
